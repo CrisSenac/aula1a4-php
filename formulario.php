@@ -6,13 +6,13 @@
     <title>Formulário PHP</title>
 </head>
 <body>
-    <form action="#" method="post">
+    <form action="calcula.php" method="post">
         Numero1:
-        <input type="text" name="" value="" placeholder="Insira um número">
+        <input type="text" name="num1" value="num1" placeholder="Insira um número">
         <br>
         <br>
         Numero2:
-        <input type="text" name="" value="" placeholder="Insira um número">
+        <input type="text" name="num2" value="num2" placeholder="Insira um número">
         <br>
         <br>
         <input type="submit" value="Calcular">
