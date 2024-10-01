@@ -11,4 +11,3 @@
         echo "$resp é maior que 10";
     }
 
-    echo "A soma de num1 e num2 é: $resp";
