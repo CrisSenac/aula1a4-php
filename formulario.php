@@ -7,16 +7,17 @@
 </head>
 <body>
     <form action="calcula.php" method="post">
-        Numero1:
-        <input type="text" name="num1" value="num1" placeholder="Insira um número">
-        <br>
-        <br>
-        Numero2:
-        <input type="text" name="num2" value="num2" placeholder="Insira um número">
-        <br>
-        <br>
-        <input type="submit" value="Calcular">
-        <input type="reset" value="Limpar">
-    </form>
+    
+    Número1:
+    <input type="text" name="num1" id="num1"  class="num1"value="" placeholder="Insira um número1">
+    <br>
+    <br>    
+    Número2:
+    <input type="text" name="num2" id="num2" class="num2" value=""  placeholder="Insira um número2">
+    <br>
+    <br>
+    <input type="submit" value="Calcular">    
+    <input type="reset" value="Limpar">
+</form>    
 </body>
 </html>
